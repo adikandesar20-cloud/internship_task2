@@ -1,39 +1,25 @@
 # internship_task2
 This repository contains source code for my internship task 2.
 
-# Java Basics Programs
-This repository contains 10 Java programs that demonstrate core syntax, operators, loops, conditionals, arrays, and methods. Each program is self‑contained and can be compiled and run independently.
+# Temp_Converter.java
+A simple Java program to convert temperatures from Fahrenheit to Celsius.  
+This program demonstrates both static input and dynamic input(user‑entered value via 'Scanner').
 
-##  Programs Included
-1. HelloWorld.java
-   Prints a simple message to verify JDK and IDE setup.
+# Program Description
+- Static Conversion: Converts a predefined Fahrenheit value ('96.7°F') into Celsius.  
+- Dynamic Conversion: Prompts the user to enter a Fahrenheit value, then converts it into Celsius.  
+- Concepts Covered:
+  - Variable declaration ('double fahrenheit')  
+  - Arithmetic operations ('(fahrenheit - 32) * 5 / 9')  
+  - User input with 'Scanner' 
+  - Console output with 'System.out.println'  
 
-2. TemperatureConverter.java  
-   Converts Fahrenheit to Celsius using arithmetic operations.
+# How to Compile and Run
+1. Save the file as 'Temp_Converter.java'.  
+2. Open terminal/command prompt and navigate to the file location.  
+3. Compile the program:  
+   javac Temp_Converter.java
 
-3. EvenOddChecker.java  
-   Determines if a number is even or odd using modulo and ternary operator.
-
-4. MultiplicationTable.java
-   Generates multiplication tables using a 'for' loop.
-
-5. DigitCounter.java
-   Counts the number of digits in an integer using a 'while' loop.
-
-6. FibonacciSeries.java  
-   Prints the Fibonacci sequence up to 'n' terms.
-
-7. PrimeChecker.java
-   Checks if a given number is prime using optimized looping.
-
-8. DayFinder.java
-   Maps integer values to weekdays using a modern 'switch' statement.
-
-9. ArrayOperations.java
-   Performs summation of array elements using an enhanced 'for' loop.
-
-10. CircleOperations.java 
-    Calculates circumference and area of a circle using methods.
 
 
 
